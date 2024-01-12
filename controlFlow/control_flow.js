@@ -46,3 +46,15 @@ let isAuth = true;
 let authStatus = isAuth ? "Auth" : "Not auth"
 
 console.log("Auth status", authStatus);
+
+let role = "Employee";
+let auth;
+
+switch(role){
+    case "Employee":
+        auth ="Dietary Services";
+        break;
+    default:
+        auth = "Nothing"
+}
+console.log("Role", role, auth)
